@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#titles{
+    height: 100vh;
+    width: 100vw;
+    
+    display: grid;
+    grid-template-columns: repeat(var(--column),1fr);
+    grid-template-rows: repeat(var(--row),1fr); 
+}
+
+.title{
+    outline: 1px solid white;
+}
