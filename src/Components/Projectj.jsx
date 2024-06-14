@@ -29,7 +29,7 @@ const opacityProgress=useTransform(scrollYProgress,[0 ,1],[0.5,1])
                             h-[150px] bg-[#1c1c1c] shadow-md transition-border duration-200 ease-linear 
                             sm:p-6 sm:items-center md:h-[200px] hover:border-2
                            hover:border-stone-600 hover:transition-all hover:duration-400 hover:ease-in-out 
-                            " onClick={()=>{window.location.href = "https://pallet-rho.vercel.app/";}}>
+                            " onClick={()=>{window.location.href = "https://github.com/PvKutam/peddit";}}>
                                 {/* Git hub , link svg */}
                             <div className="flex self-end gap-[30px]">
                             <a href="https://github.com/PvKutam/peddit">
@@ -58,7 +58,7 @@ const opacityProgress=useTransform(scrollYProgress,[0 ,1],[0.5,1])
                             h-[150px] bg-[#1c1c1c] shadow-md transition-border duration-200 ease-linear 
                             sm:p-6 sm:items-center md:h-[200px] hover:border-2
                            hover:border-stone-600 hover:transition-all hover:duration-400 hover:ease-in-out 
-                            " onClick={()=>{window.location.href = "https://pallet-rho.vercel.app/";}}>
+                            " onClick={()=>{window.location.href = "https://github.com/PvKutam/Yellow";}}>
                                 {/* Git hub , link svg */}
                             <div className="flex self-end gap-[30px]">
                             <a href="https://github.com/PvKutam/Yellow">
