@@ -5,7 +5,7 @@ import React from "react";
       }
     return(
         <>
-        <div id= 'Footer'  className="mx-auto w-[90%] md:w-[80%] pt-20">
+        <div id= 'Footer'  className="mx-auto w-[90%] md:w-[80%] pt-10">
         <div className="flex flex-col-reverse border-t-2 gap-3 justify-center items-center p-[30px] md:flex-row md:justify-between scroll-mt-28">
             <span className="text-white">© 2024 Kutam</span>
             <div className="flex items-center justify-center gap-5">

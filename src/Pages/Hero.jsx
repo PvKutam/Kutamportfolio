@@ -8,7 +8,7 @@ export default function Example() {
   return (
     <div>
      <Header />
-      <div id="Home" className="mx-auto max-w-5xl flex justify-center items-center h-screen mt-[-5rem] sm:mt-0 md:mt-20">
+      <div id="Home" className="mx-auto max-w-5xl flex justify-center items-center h-screen mt-[-2rem] sm:mt-0 md:mt-20">
         <motion.div
           className=" w-full top-[5rem] flex flex-col items-center justify-center text-black pt-5  scroll-mt-28
              bg-auto bg-no-repeat bg-center"
@@ -24,8 +24,7 @@ export default function Example() {
             </span>
           </h1>
           <p className=" leading-1.8  m-auto max-w-[350px] text-[14px] sm:max-w-[400px] sm:text-xl md:max-w-[640px] :text-xl line-height-20 text-[#bbbbbb]  ">
-            I'm passionate about creating experiences that are easy to use,
-            accessible, and that meet the user's needs.
+          I'm an aspiring software engineer passionate about developing software that creates experiences which are easy to use, accessible, and meet the user's needs.
           </p>
           <div className="flex items-center pt-10 gap-4 pr-20">
             <h2

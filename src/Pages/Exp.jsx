@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 function Exp() {
 
   return (
-    <div id= 'Experience' className='flex flex-col items-center justify-center h-[90vh] max-w-7xl mx-auto mt-[10rem] md:mt-[-1rem]'>
+    <div id= 'Experience' className='flex flex-col items-center justify-center h-[90vh] max-w-7xl mx-auto mt-[15rem] md:mt-[-1rem]'>
     <div  
     className='flex flex-col gap-[4px] scroll-mt-[100rem]'>
         <h1 className='text-xl font-[400] sm:text-[22px] sm:text-4xl text-white '>Experience</h1>

@@ -1,8 +1,8 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 
 export default function Header() {
-  return (
+  return (  
     <header className="z-[999] relative">
       <motion.div
         className="fixed top-0 left-1/2 h-[4.5rem] w-full 
@@ -28,7 +28,7 @@ export default function Header() {
             animate={{ y: 0, opacity: 1 }}
           >
             <button
-              className="flex w-full items-center justify-center px-3 py-3 text-white transition"
+              className="flex w-full items-center justify-center px-3 py-3 text-white transition md:text-base"
               onClick={() => {
                 const element = document.getElementById("Home");
                 element.scrollIntoView({
@@ -47,7 +47,7 @@ export default function Header() {
             animate={{ y: 0, opacity: 1 }}
           >
             <button
-              className="flex w-full items-center justify-center px-3 py-3 text-white transition"
+              className="flex w-full items-center justify-center px-3 py-3 text-white transition md:text-base"
               onClick={() => {
                 const element = document.getElementById("About");
                 element.scrollIntoView({
@@ -66,7 +66,7 @@ export default function Header() {
             animate={{ y: 0, opacity: 1 }}
           >
             <button
-              className="flex w-full items-center justify-center px-3 py-3 text-white transition"
+              className="flex w-full items-center justify-center px-3 py-3 text-white transition md:text-base"
               onClick={() => {
                 const element = document.getElementById("Project");
                 element.scrollIntoView({
@@ -85,7 +85,7 @@ export default function Header() {
             animate={{ y: 0, opacity: 1 }}
           >
             <button
-              className="flex w-full items-center justify-center px-3 py-3 text-white transition"
+              className="flex w-full items-center justify-center px-3 py-3 text-white transition md:text-base"
               onClick={() => {
                 const element = document.getElementById("Experience");
                 element.scrollIntoView({
@@ -104,7 +104,7 @@ export default function Header() {
             animate={{ y: 0, opacity: 1 }}
           >
             <button
-              className="flex w-full items-center justify-center px-3 py-3 text-white transition"
+              className="flex w-full items-center justify-center px-3 py-3 text-white transition md:text-base"
               onClick={() => {
                 const element = document.getElementById("Footer");
                 element.scrollIntoView({
